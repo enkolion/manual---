@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Comic+Relief:wght@400;700&family=Dela+Gothic+One&display=swap');
+
+body {
+    font-family: 'Comic Relief', sans-serif;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #ff8800;
+    text-align: center;
+}
+
+header {
+    background-color: #ff8800;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+h2 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 24px;
+}
+
+.author-info {
+    font-size: 18px;
+    color: #000000;
+    margin-top: -10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+nav a {
+    color: white; /* Теперь ссылки белые */
+    text-decoration: none;
+    background-color: #ff8800;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #d97800;
+    color: #1a1a1a; /* Текст становится черным при наведении */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.block {
+    padding: 20px;
+    background-color: #262626;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.4s ease;
+nav a:hover {
+    background-color: #d97800;
+    color: #1a1a1a; /* Текст становится черным при наведении */
+}
+
+}
+
+.block h2 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 24px;
+}
+
+.block:hover {
+    background-color: #ff8800; /* Фон становится оранжевым */
+    color: #1a1a1a; /* Текст становится черным */
+    transform: scale(1.05);
+}
+
+a {
+    color: white; /* Белый текст для всех ссылок */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1a1a1a; /* Оранжевый текст при наведении */
+}
+
+b, i {
+    color: orange; /* Белый цвет для <b> и <i> */
+    text-shadow: #dd7538 0 0 5px ; /* Эффект свечения */
+}
+
+footer {
+    background-color: #ff8800;
+    padding: 10px;
+    color: #1a1a1a;
+}
+.content {
+    margin-right: 15px; /* Добавляет отступ справа */
+    padding-right: 15px; /* Дополнительно увеличивает отступ */
+}
+img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    margin: 5px; /* Создает одинаковый отступ вокруг каждого изображения */
+}
+text, img {
+    padding-left: 5px; /* Добавляет отступ справа */
+ 
+}
